@@ -1,0 +1,16 @@
+﻿<Window x:Class="Dictionar_2._0.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dictionar_2._0"
+        mc:Ignorable="d"
+        Title="LogIn" Height="241" Width="335">
+    <Grid>
+        <Label Content="UserId" HorizontalAlignment="Left" Margin="28,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="28,87,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="userIdBox" HorizontalAlignment="Left" Margin="117,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" Height="26"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="27" Margin="117,87,0,0" VerticalAlignment="Top" Width="149"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="117,144,0,0" VerticalAlignment="Top" Width="149" Height="28" Click="Button_Click"/>
+    </Grid>
+</Window>

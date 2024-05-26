@@ -1,0 +1,29 @@
+﻿<Window x:Class="Dictionar_2._0.AddMore"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:Dictionar_2._0"
+            mc:Ignorable="d"
+            Title="AddMore" Height="463" Width="644">
+    
+    <Grid>
+        <Label Content="Word" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Meaning" HorizontalAlignment="Left" Margin="19,108,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.087,-0.307"/>
+        <TextBox x:Name="firstTxt" HorizontalAlignment="Left" Height="24" Margin="88,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248">
+
+        </TextBox>
+        <TextBox x:Name="lastTxt" HorizontalAlignment="Left" Margin="88,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="274"/>
+        <Button Content="Add new" HorizontalAlignment="Left" Margin="88,387,0,0" VerticalAlignment="Top" Width="62" Height="24" Click="Button_Click_1"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="170,387,0,0" VerticalAlignment="Top" Width="62" Height="24" RenderTransformOrigin="0.418,3.22" Click="Button_Click"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="260,387,0,0" VerticalAlignment="Top" Width="62" Height="24" Click="Button_Click_2"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="20,62,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="categoryBox" HorizontalAlignment="Left" Margin="88,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="26"/>
+        <ListBox x:Name="categoryList" HorizontalAlignment="Left" Height="148" Margin="393,12,0,0" VerticalAlignment="Top" Width="202" SelectionChanged="categoryList_SelectionChanged">
+        </ListBox>
+        <Button Content="Add Image" HorizontalAlignment="Left" Margin="435,387,0,0" VerticalAlignment="Top" Width="106" Click="Button_Click_3" Height="24"/>
+        <Image x:Name="imageforword" HorizontalAlignment="Left" Height="142" Margin="404,224,0,0" VerticalAlignment="Top" Width="200"/>
+
+    </Grid>
+
+</Window>
